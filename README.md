@@ -1,7 +1,7 @@
 ---
 tags: variable assignment, variables
 language: ruby
-  resources: 2
+resources: 2
 ---
 
 # Local Variable Assignment
