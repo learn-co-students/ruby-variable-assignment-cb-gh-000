@@ -45,5 +45,5 @@ rspec ./spec/assignment_spec.rb:5 # local variables should have a local scope
 Solve that problem DIRECTLY in the assignment_spec.rb. Have fun!
 
 ## Resources
-* [Learn to Program](http://books.flatironschool.com/books/43) - [Chapter 4 Variables and Assignment](http://books.flatironschool.com/books/43), page 31
-* [The RSpec Book](http://books.flatironschool.com/books/20) - [2.2 Hello RSpec](http://books.flatironschool.com/books/20), page 31
+* [Learn to Program](http://books.flatironschool.com/books/43) - [Chapter 4 Variables and Assignment](http://books.flatironschool.com/books/43?page=31), page 31
+* [The RSpec Book](http://books.flatironschool.com/books/20) - [2.2 Hello RSpec](http://books.flatironschool.com/books/20?page=31), page 31
