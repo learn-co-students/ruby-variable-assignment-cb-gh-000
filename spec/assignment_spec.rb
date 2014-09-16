@@ -1,4 +1,3 @@
-require 'spec_helper'
 # Code your solution directly in this file.
 
 describe "local variables" do
