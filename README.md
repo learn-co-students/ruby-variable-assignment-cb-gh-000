@@ -8,19 +8,19 @@ resources: 2
 
 The goal of this lab is purposely basic, just simply test your ability to assign a local variable named `greeting` that is equal to `Hello World`.
 
-You should first make sure the test suite is running correctly by running: `ironboard`.
+You should first make sure the test suite is running correctly by running: `learn`.
 
 If you get:
 
 ```
--bash: ironboard: command not found
+-bash: learn: command not found
 ```
 
-You need to install ironboard. Do that via
+You need to install learn. Do that via
 
 * `gem sources -a http://flatiron:33west26@gems.flatironschool.com`
 
-* `gem install ironboard`
+* `gem install learn-co`
 
 Upon the first run of the test suite you should see:
 
@@ -41,7 +41,7 @@ Finished in 0.00048 seconds
 2 examples, 1 failure
 ```
 
-To solve this error, create a local variable, "greeting" in the `variable.rb` file. Set this variable equal to the string "Hello World". Run `ironboard` to see if you did this correctly.
+To solve this error, create a local variable, "greeting" in the `variable.rb` file. Set this variable equal to the string "Hello World". Run `learn` to see if you did this correctly.
 
 ## Resources
 * [Learn to Program](http://books.flatironschool.com/books/43) - [Chapter 4 Variables and Assignment](http://books.flatironschool.com/books/43?page=31), page 31
