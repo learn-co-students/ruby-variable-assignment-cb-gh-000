@@ -16,11 +16,7 @@ If you get:
 -bash: learn: command not found
 ```
 
-You need to install learn. Do that via
-
-* `gem sources -a http://flatiron:33west26@gems.flatironschool.com`
-
-* `gem install learn-co`
+You need to install learn. Do that via: `gem install learn-co` in your command line.
 
 Upon the first run of the test suite you should see:
 
@@ -44,5 +40,5 @@ Finished in 0.00048 seconds
 To solve this error, create a local variable, "greeting" in the `variable.rb` file. Set this variable equal to the string "Hello World". Run `learn` to see if you did this correctly.
 
 ## Resources
-* [Learn to Program](http://books.flatironschool.com/books/43) - [Chapter 4 Variables and Assignment](http://books.flatironschool.com/books/43?page=31), page 31
-* [The RSpec Book](http://books.flatironschool.com/books/20) - [2.2 Hello RSpec](http://books.flatironschool.com/books/20?page=31), page 31
+* [Learn to Program](https://pine.fm/LearnToProgram/chap_03.html)
+* [Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec)
