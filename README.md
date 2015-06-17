@@ -1,12 +1,10 @@
----
-tags: variable assignment, variables
-language: ruby
-resources: 2
----
+##Objectives
 
-# Local Variable Assignment
+Test your ability to assign a local variable
 
-The goal of this lab is purposely basic, just simply test your ability to assign a local variable named `greeting` that is equal to `Hello World`.
+##Instructions
+
+You will assign a local variable named `greeting` that is equal to `Hello World`.
 
 You should first make sure the test suite is running correctly by running: `learn`.
 
