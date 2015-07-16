@@ -1,24 +1,18 @@
-##Objectives
+# Variable Assignment
 
-Test your ability to assign a local variable
+## Objectives
 
-##Instructions
+1. Test your ability to assign a local variable.
+
+## Instructions
 
 You will assign a local variable named `greeting` that is equal to `Hello World`.
 
-You should first make sure the test suite is running correctly by running: `learn`.
-
-If you get:
-
-```
--bash: learn: command not found
-```
-
-You need to install learn. Do that via: `gem install learn-co` in your command line.
+You should first make sure the test suite is running correctly by running `learn`.
 
 Upon the first run of the test suite you should see:
 
-```
+```bash
 FF
 
 Failures:
@@ -34,8 +28,14 @@ Failures:
 Finished in 0.00048 seconds
 2 examples, 1 failure
 ```
+However, if you get:
 
-To solve this error, create a local variable, "greeting" in the `variable.rb` file. Set this variable equal to the string "Hello World". Run `learn` to see if you did this correctly.
+```bash
+-bash: learn: command not found
+```
+Then you need to install Learn. Do that via: `gem install learn-co` in your command line.
+
+To solve this test failure, create a local variable `greeting` in the `variable.rb` file. Set `greeting` equal to the string `"Hello World"`. Run `learn` to see if you did this correctly.
 
 ## Resources
 * [Learn to Program](https://pine.fm/LearnToProgram/chap_03.html)
