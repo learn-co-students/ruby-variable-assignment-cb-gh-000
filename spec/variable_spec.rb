@@ -8,18 +8,14 @@ describe "local variables" do
   end
 
   it "defined a local variable called greeting and set it equal to 'Hello World'" do
-    match = false
-    right_answers.each do |a|
-      if @content.match(a)
-        match = true
-        break
-      end
-    end
-    expect(match).to eq(true)
+    expect(right_answers.any? { |answer| @content.match(answer) }).to eq(true)
   end
 
-  it "should not be a global or instance variable" do
+  it "should not be an instance variable" do
     expect(@content).to_not include("@")
   end
 
+  it "should not be an global variable" do
+    expect(@content).to_not include("$")
+  end
 end
