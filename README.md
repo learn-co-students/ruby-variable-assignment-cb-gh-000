@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Test your ability to assign a local variable.
+1. Assign a local variable.
 
 ## Instructions
 
