@@ -31,3 +31,21 @@ speed_dial[1] #=> "Kay"
 
 speed_dial[1] = "Chipps"
 speed_dial[1] #=> "Chipps"
+
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+
+famous_cats << "nala cat"
+
+famous_cats #=> ["lil' bub", "grumpy cat", "Maru", "nala cat"]
+
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+
+famous_cats.push("nala cat")
+
+famous_cats #=> ["lil' bub", "grumpy cat", "Maru", "nala cat"]
+
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+
+famous_cats.unshift("nala cat")
+
+famous_cats.inspect #=> ["nala cat", "lil' bub", "grumpy cat", "Maru"]
