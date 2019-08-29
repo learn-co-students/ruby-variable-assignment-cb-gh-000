@@ -1,2 +1,3 @@
- # Define a local variable called 'greeting',
- # give it the value of the string "Hello World"
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+
+famous_cats << "nala cat"
